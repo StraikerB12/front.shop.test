@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "es2017",
+    "stage-0",
+    "vue-app"
+  ],
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      },
+      "syntax-dynamic-import",
+      "transform-vue-jsx",
+      "transform-object-rest-spread",
+      "transform-es2015-destructuring"
+    ]
+  ]
+}
