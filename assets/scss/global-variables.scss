@@ -1,0 +1,46 @@
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import "@fortawesome/fontawesome-free/css/all.css"; 
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body *{
+  box-sizing: border-box;
+}
+
+#__nuxt{
+  height: 100%;
+}
+#__layout{
+  height: 100%;
+}
+
+
+.max-width-site{
+  max-width: 1200px;
+}
+
+.button{
+  width: 100%;
+  display: block;
+  border: none;
+  border-radius: 0;
+  background: #25282B;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.plain{
+  background: #E4E4E4;
+  color: #232323;
+}
